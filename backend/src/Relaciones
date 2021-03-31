@@ -1,0 +1,29 @@
+
+-Olvidarme de los docentes 
+
+Vamos a tener estas 4 entidades
+Aulas  Materias ,Cursos y Turnos
+
+
+El resto de los modelos lo elimino ,y si falta algo agrego un enum
+
+Rel
+Selecionar un aula , que me ofresca los turnos y los dias que tiene disponible (4 Select).Esto viendo las aulas y los turnos que tienen disponibles esas aulas.
+Una vez que tenga el dia y el turno me da el listado de materias.
+
+Materias : En la base de datos
+Curso aulas: Con abm
+Turno :poner en base o en un enum
+
+
+Pantalla 1  Pantalla 2  Pantalla 3 
+ABM Curso    ABM Aulas  Muestra disponibilidad y asignar nuevas aulas (asignarle un curso materia y turno)
+(Muestran   (Muestran   (Muestra la relacion y validacion )
+y agregan)  y agregan)  Hace un boton de edit para cara row 
+                        Relacionar un modelo para las 4 entidades 
+
+Hacer back primero ,get de aulas, post  ,get de cursos y post.
+Ultima pantalla lo mismo hacer una relacion con entidad aparte (post put),esa entidad tiene que estar relacionado con las otras entidades.
+Validar:Ej:Si un aula no puede asignar otra materia.
+
+Obtener toda la data para el componente en React asi no voy al server
