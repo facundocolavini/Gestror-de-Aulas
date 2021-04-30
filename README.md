@@ -28,7 +28,7 @@
    
    Estructura de ejecucion [Node](https://nodejs.org/en/) y [Express](https://expressjs.com/) 
    
-# Ejecutar desde consola VSCODE
+# Ejecutar desde consola 
     
     npm run dev (desde la carpeta backend)
     mongod 
