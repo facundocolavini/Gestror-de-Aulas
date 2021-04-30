@@ -32,4 +32,5 @@
     
     npm run dev (desde la carpeta backend)
     mongod 
+    npm install (desde la carpeta frontend)
     npm start (desde la carpeta frontend)
