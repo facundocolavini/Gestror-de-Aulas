@@ -22,7 +22,7 @@
 
 # Construido con 🛠️
 
-   Frameworks Utilizados [REACT](https://reactjs.org/) y [Materialize](https://materializecss.com/)
+   Frameworks Utilizados [REACT](https://reactjs.org/) y [Bootstrap](https://getbootstrap.com/)
    
    Para crear mi Base de Datos [MongoDB](https://www.mongodb.com/) 
    
