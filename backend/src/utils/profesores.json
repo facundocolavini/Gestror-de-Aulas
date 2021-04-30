@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "6077351f2ffec92b78bc5f97"
+  },
+  "docente": "Colombo Leandro",
+  "turno": "7:30 a 12:00",
+  "dia": "Lunes",
+  "materia": "Sistemas de Computacion II"
+},{
+  "_id": {
+    "$oid": "607736092ffec92b78bc5f98"
+  },
+  "docente": "Maria Sol Di Marco",
+  "turno": "12:30 a 18:30",
+  "dia": "Martes",
+  "materia": "Tecnicas Digitales"
+},{
+  "_id": {
+    "$oid": "6077364f2ffec92b78bc5f99"
+  },
+  "docente": "Matias Garcia",
+  "turno": "12:30 a 18:30",
+  "dia": "Jueves",
+  "materia": "Seminario"
+},{
+  "_id": {
+    "$oid": "607737ac2ffec92b78bc5f9a"
+  },
+  "docente": "Debora Chan",
+  "turno": "19:00 a 23:00",
+  "dia": "Jueves",
+  "materia": "Probabilidad Aplicada"
+},{
+  "_id": {
+    "$oid": "6077390e2ffec92b78bc5f9b"
+  },
+  "docente": "Elsa Gallego",
+  "turno": "7:30 a 12:00",
+  "dia": "Viernes",
+  "materia": "Robotica 2"
+},{
+  "_id": {
+    "$oid": "60773c882ffec92b78bc5f9c"
+  },
+  "docente": "Alejo Ayuso",
+  "turno": "12:30 a 18:30",
+  "dia": "Viernes",
+  "materia": "Laboratorio de Microprocesadores"
+},{
+  "_id": {
+    "$oid": "60773d8e2ffec92b78bc5f9d"
+  },
+  "docente": "Florentino Enriquez",
+  "turno": "19:00 a 23:00",
+  "dia": "Viernes",
+  "materia": "Sistemas de Control III"
+},{
+  "_id": {
+    "$oid": "60773e9f2ffec92b78bc5f9e"
+  },
+  "docente": "Julio Villaverde",
+  "turno": "7:30 a 12:00",
+  "dia": "Jueves",
+  "materia": "Taller de Instrumentacion 2"
+},{
+  "_id": {
+    "$oid": "60773fe42ffec92b78bc5f9f"
+  },
+  "docente": "Juan Fernando Martínez",
+  "turno": "12:30 a 18:30",
+  "dia": "Jueves",
+  "materia": "Procesos y Operaciones Quimicas"
+},{
+  "_id": {
+    "$oid": "6077414d2ffec92b78bc5fa0"
+  },
+  "docente": "Gaston Larriera",
+  "turno": "19:00 a 23:00",
+  "dia": "Lunes",
+  "materia": "Programacion III"
+},{
+  "_id": {
+    "$oid": "607746da2ffec92b78bc5fa1"
+  },
+  "docente": "Laureano Andres",
+  "turno": "7:30 a 12:00",
+  "dia": "Martes",
+  "materia": "Seguridad Industrial"
+},{
+  "_id": {
+    "$oid": "607748ce2ffec92b78bc5fa2"
+  },
+  "docente": "Rosalia Marrero",
+  "turno": "12:30 a 18:30",
+  "dia": "Lunes",
+  "materia": "Microbiologia y Tecnologia de los Alimentos"
+},{
+  "_id": {
+    "$oid": "60774bb22ffec92b78bc5fa3"
+  },
+  "docente": "Adela Ortuño",
+  "turno": "19:00 a 23:00",
+  "dia": "Martes",
+  "materia": "Fisico Quimica"
+},{
+  "_id": {
+    "$oid": "6077513e2ffec92b78bc5fa4"
+  },
+  "docente": "Fernanda Tejera",
+  "turno": "7:30 a 12:00",
+  "dia": "Miercoles",
+  "materia": "Evaluacion e Investigacion Educativa"
+},{
+  "_id": {
+    "$oid": "607754982ffec92b78bc5fa5"
+  },
+  "docente": "Pascuala Otero",
+  "turno": "19:00 a 23:00",
+  "dia": "Miercoles",
+  "materia": "Diccion II"
+},{
+  "_id": {
+    "$oid": "6079d2a61f79950b60ba9a26"
+  },
+  "docente": "Bibiana Ortiz",
+  "turno": "7:30 a 12:00",
+  "dia": "Lunes",
+  "materia": "Literatura Juvenil Semiologia de los Medios Masivos de Comunicacion"
+},{
+  "_id": {
+    "$oid": "6079d2ba1f79950b60ba9a27"
+  },
+  "docente": "Denis Casas",
+  "turno": "7:30 a 12:00",
+  "dia": "Martes",
+  "materia": "Aplicaciones de Informatica Educativa a la Enseñanza"
+},{
+  "_id": {
+    "$oid": "6079d2d01f79950b60ba9a28"
+  },
+  "docente": "Evelyn Alcalde",
+  "turno": "7:30 a 12:00",
+  "dia": "Miercoles",
+  "materia": "Etica y Deontologia de la Profesion Docente"
+},{
+  "_id": {
+    "$oid": "6079d2e11f79950b60ba9a29"
+  },
+  "docente": "César Peralta",
+  "turno": "7:30 a 12:00",
+  "dia": "Jueves",
+  "materia": "Lengua Inglesa III"
+},{
+  "_id": {
+    "$oid": "6079d2f11f79950b60ba9a2a"
+  },
+  "docente": "Alina Campos",
+  "turno": "7:30 a 12:00",
+  "dia": "Viernes",
+  "materia": "Computacion III"
+},{
+  "_id": {
+    "$oid": "6079d3201f79950b60ba9a2b"
+  },
+  "docente": "Leonardo Ferrer",
+  "turno": "12:30 a 18:30",
+  "dia": "Lunes",
+  "materia": "Analisis Matematico III"
+},{
+  "_id": {
+    "$oid": "6079d3331f79950b60ba9a2c"
+  },
+  "docente": "Valentina Granado",
+  "turno": "12:30 a 18:30",
+  "dia": "Martes",
+  "materia": "Energotecnia"
+},{
+  "_id": {
+    "$oid": "6079d3411f79950b60ba9a2d"
+  },
+  "docente": "Aurora Alvarez",
+  "turno": "12:30 a 18:30",
+  "dia": "Miercoles",
+  "materia": "Economia y Organizacion"
+},{
+  "_id": {
+    "$oid": "6079d3541f79950b60ba9a2e"
+  },
+  "docente": "Bernat Palomo",
+  "turno": "12:30 a 18:30",
+  "dia": "Jueves",
+  "materia": "Fisica Teorica"
+}]

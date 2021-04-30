@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "607711d7938e6237b076fb3f"
+  },
+  "materia": "Seminario",
+  "alumnos": 20,
+  "curso": "Informatica",
+  "docente": "Matias Garcia"
+},{
+  "_id": {
+    "$oid": "6077122e938e6237b076fb40"
+  },
+  "materia": "Programacion III",
+  "alumnos": 20,
+  "curso": "Informatica",
+  "docente": "Gaston Larriera"
+},{
+  "_id": {
+    "$oid": "6077127d938e6237b076fb41"
+  },
+  "materia": "Tecnicas Digitales",
+  "alumnos": 20,
+  "curso": "Informatica",
+  "docente": "Maria Sol Di Marco"
+},{
+  "_id": {
+    "$oid": "607712d1938e6237b076fb42"
+  },
+  "materia": "Sistemas de Computacion II",
+  "alumnos": 20,
+  "curso": "Informatica",
+  "docente": "Colombo Leandro"
+},{
+  "_id": {
+    "$oid": "607713a4938e6237b076fb43"
+  },
+  "materia": "Probabilidad Aplicada",
+  "alumnos": 20,
+  "curso": "Informatica",
+  "docente": "Debora Chan"
+},{
+  "_id": {
+    "$oid": "60771406938e6237b076fb44"
+  },
+  "materia": "Robotica 2",
+  "alumnos": 20,
+  "curso": "Robotica",
+  "docente": "Elsa Gallego"
+},{
+  "_id": {
+    "$oid": "6077144a938e6237b076fb45"
+  },
+  "materia": "Laboratorio de Microprocesadores",
+  "alumnos": 20,
+  "curso": "Robotica",
+  "docente": "Alejo Ayuso"
+},{
+  "_id": {
+    "$oid": "60771471938e6237b076fb46"
+  },
+  "materia": "Sistemas de Control III",
+  "alumnos": 20,
+  "curso": "Robotica",
+  "docente": "Florentino Enriquez"
+},{
+  "_id": {
+    "$oid": "607714c7938e6237b076fb47"
+  },
+  "materia": "Taller de Instrumentacion 2",
+  "alumnos": 20,
+  "curso": "Robotica",
+  "docente": "Julio Villaverde"
+},{
+  "_id": {
+    "$oid": "607714fd938e6237b076fb48"
+  },
+  "materia": "Procesos y Operaciones Quimicas",
+  "alumnos": 20,
+  "curso": "Quimica",
+  "docente": "Juan Fernando Martínez"
+},{
+  "_id": {
+    "$oid": "60771538938e6237b076fb49"
+  },
+  "materia": "Seguridad Industrial",
+  "alumnos": 20,
+  "curso": "Quimica",
+  "docente": "Laureano Andres"
+},{
+  "_id": {
+    "$oid": "607715c0938e6237b076fb4a"
+  },
+  "materia": "Microbiologia y Tecnologia de los Alimentos",
+  "alumnos": 20,
+  "curso": "Quimica",
+  "docente": "Rosalia Marrero"
+},{
+  "_id": {
+    "$oid": "607715fa938e6237b076fb4b"
+  },
+  "materia": "Fisico Quimica",
+  "alumnos": 30,
+  "curso": "Quimica",
+  "docente": "Adela Ortuño"
+},{
+  "_id": {
+    "$oid": "60771648938e6237b076fb4c"
+  },
+  "materia": "Evaluacion e Investigacion Educativa",
+  "alumnos": 25,
+  "curso": "Ingles",
+  "docente": "Fernanda Tejera"
+},{
+  "_id": {
+    "$oid": "6077169e938e6237b076fb4d"
+  },
+  "materia": "Diccion II",
+  "alumnos": 25,
+  "curso": "Ingles",
+  "docente": "Pascuala Otero"
+},{
+  "_id": {
+    "$oid": "607716bd938e6237b076fb4e"
+  },
+  "materia": "Literatura Juvenil Semiologia de los Medios Masivos de Comunicacion",
+  "alumnos": 25,
+  "curso": "Ingles",
+  "docente": "Bibiana Ortiz"
+},{
+  "_id": {
+    "$oid": "607716fc938e6237b076fb4f"
+  },
+  "materia": "Aplicaciones de Informatica Educativa a la Enseñanza",
+  "alumnos": 25,
+  "curso": "Ingles",
+  "docente": "Denis Casas"
+},{
+  "_id": {
+    "$oid": "60771733938e6237b076fb50"
+  },
+  "materia": "Etica y Deontologia de la Profesion Docente",
+  "alumnos": 25,
+  "curso": "Ingles",
+  "docente": "Evelyn Alcalde"
+},{
+  "_id": {
+    "$oid": "60771760938e6237b076fb51"
+  },
+  "materia": "Lengua Inglesa III",
+  "alumnos": 25,
+  "curso": "Ingles",
+  "docente": "César Peralta"
+},{
+  "_id": {
+    "$oid": "60771812938e6237b076fb53"
+  },
+  "materia": "Computacion III",
+  "alumnos": 25,
+  "curso": "Fisica",
+  "docente": "Alina Campos"
+},{
+  "_id": {
+    "$oid": "60771854938e6237b076fb54"
+  },
+  "materia": "Analisis Matematico III",
+  "alumnos": 25,
+  "curso": "Fisica",
+  "docente": "Leonardo Ferrer"
+},{
+  "_id": {
+    "$oid": "60771885938e6237b076fb55"
+  },
+  "materia": "Energotecnia",
+  "alumnos": 25,
+  "curso": "Fisica",
+  "docente": "Valentina Granado"
+},{
+  "_id": {
+    "$oid": "607718ed938e6237b076fb56"
+  },
+  "materia": "Economia y Organizacion",
+  "alumnos": 25,
+  "curso": "Fisica",
+  "docente": "Aurora Alvarez"
+},{
+  "_id": {
+    "$oid": "60771949938e6237b076fb57"
+  },
+  "materia": "Fisica Teorica",
+  "alumnos": 25,
+  "curso": "Fisica",
+  "docente": "Bernat Palomo"
+}]

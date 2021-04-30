@@ -4,15 +4,12 @@ import {useForm} from "react-hook-form";
 
 
 const AddAulasForm =(props)=>{ 
-
     const {register,errors,handleSubmit}=useForm();
-
     const onSubmit=(data,e)=>{
         setTimeout(window.location.reload(),1000);
         e.preventDefault()
         console.log(e)
         props.addAula(data)
-        
     }
         return (
             <div className="row  pl-4 pt-2 pb-2 pr-2">
@@ -85,7 +82,6 @@ const AddAulasForm =(props)=>{
                             >  
                                 <option value="" selected disabled>Seleccione una disponibilidad</option> 
                                 <option >Disponible</option>    
-                                <option >Ocupada</option>    
                             </select>  
                             <span className="text-danger text-small d-block mb-2">
                                 {errors?.disponibilidad?.message}

@@ -18,6 +18,8 @@ app.use(express.json());
 app.use('/api/Aulas', require('./Aulas/routes'));
 app.use('/api/Cursos', require('./Cursos/routes'));
 app.use('/api/Materias', require('./Materias/routes'));
+app.use('/api/Profesores', require('./Profesores/routes'));
+app.use('/api/Reservas', require('./Reservas/routes'));
  
 
 module.exports = app;

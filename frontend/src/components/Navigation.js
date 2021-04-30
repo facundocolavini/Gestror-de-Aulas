@@ -21,6 +21,9 @@ export class Navigation extends Component {
                 <li className="nav-item">
                     <Link className="nav-link"to="/reservar">Reservar Aula</Link>
                 </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/reservadas">Reservadas</Link>
+                </li>
               </ul>
             </div>
           </div>

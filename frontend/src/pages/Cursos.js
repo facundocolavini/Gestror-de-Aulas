@@ -28,18 +28,18 @@ const Cursos =()=>{
 
     //Agregar curso
     const addCurso = async (values) => {
-        try {
-          const response = await postCursos(values);
-          console.log(response);
-          setCurso(prevState => {
-            return {...prevState,
-              data: [...prevState.data, values]
-            };
-          });
-        } catch (err){
-          console.log(err);
-        }
-      };
+      try {
+        const response = await postCursos(values);
+        console.log(response);
+        setCurso(prevState => {
+          return {...prevState,
+            data: [...prevState.data, values]
+          };
+        });
+      } catch (err){
+        console.log(err);
+      }
+    };
     // const addAula = (aula)=>{
     //     setAula([
     //         ...aulas,
@@ -66,13 +66,11 @@ const Cursos =()=>{
     });
 
     const editRow = (curso)=>{
-        setEditing(true);
-        setCurrentCurso({
-            _id:curso._id,
-            nombre:curso.nombre,
-
-        })
-         
+      setEditing(true);
+      setCurrentCurso({
+        _id:curso._id,
+        nombre:curso.nombre,
+      })   
     }
     // console.log(currentAula,'aula a editar')
     const updateCurso = async (id,updated) =>{

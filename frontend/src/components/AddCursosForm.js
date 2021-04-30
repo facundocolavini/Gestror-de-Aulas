@@ -4,14 +4,12 @@ import {useForm} from "react-hook-form";
 
 
 const AddCursosForm =(props)=>{ 
-
     const {register,errors,handleSubmit}=useForm();
     const onSubmit=(data,e)=>{
         setTimeout(window.location.reload(),1000);
         e.preventDefault()
         console.log(e)
-        props.addCurso(data)
-        
+        props.addCurso(data) 
     }
         return (
             <div className="row  pl-4 pt-2 pb-2 pr-2">
@@ -35,7 +33,7 @@ const AddCursosForm =(props)=>{
                                     <option >Informatica</option>  
                                     <option >Robotica</option>    
                                     <option >Quimica</option>    
-                                    <option >Física</option>  
+                                    <option >Fisica</option>  
                                     <option >Ingles</option>    
                                 </select>   
                                 <span className="text-danger text-small d-block mb-2">

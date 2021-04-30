@@ -1,15 +1,9 @@
 import React,{useEffect,useState}  from 'react';
 import AddAulasForm from '../components/AddAulasForm';
 import EditAulaForm from '../components/EditAulaForm';
-import {M} from 'materialize-css'
+import M from 'materialize-css'
 import{getAulas,deleteAulas,postAulas} from "../services/aulasApi" ;
 import AulaTable from '../components/AulaTable';
- 
-
-
- 
-
-
 
 const Aulas =()=>{
     const [state,setState] =useState({data:[]});
@@ -78,29 +72,31 @@ const Aulas =()=>{
             capacidad:aula.capacidad,
             disponibilidad:aula.disponibilidad
         })
-         
     }
     // console.log(currentAula,'aula a editar')
     const updateAula = async (id,updated) =>{
-      fetch(`http://localhost:4000/api/Aulas/${id}`,{ 
-        method: 'PUT',
-        body: JSON.stringify(updated),
-        headers:{
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        }
-      })
+      try {
+        fetch(`http://localhost:4000/api/Aulas/${id}`,{ 
+          method: 'PUT',
+          body: JSON.stringify(updated),
+          headers:{
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+          }
+        })
         .then(res => res.json())
         .then(data=>{
-           M.toast({html:'Información Actualizada'});
           setAula({
             _id: data._id,
             numDeAula:data.numDeAula,
             capacidad:data.capacidad,
             disponibilidad:data.disponibilidad
           })
+          M.toast({html:'Información Actualizada'});
         })
-        console.log(aulas);
+      }catch(err){
+        console.log(err)
+      }
     }
 
     return (

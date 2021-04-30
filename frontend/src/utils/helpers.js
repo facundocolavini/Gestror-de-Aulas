@@ -1,7 +1,7 @@
 export const convertArrayToObjectIdValue = (array, key, value) => {
   const initialValue = {};
   return array.reduce((obj, item) => {
-    console.log(item[value])
+    //console.log(item[value])
     return {
       ...obj,
       [item[key]]: item[value],

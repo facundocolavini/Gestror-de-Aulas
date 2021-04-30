@@ -10,26 +10,26 @@ exports.getAll = async (req,res)=>{
 }
  
 exports.save = async (req,res)=>{
-    try{
     //Consulto que datos estamos enviando
     //Req.body representan los datos que envia el cliente
-    console.log(req.body , 'REQBODY');
+    console.log(req.body);
     //Nueva Curso
-    const {nombre,alumnos} =req.body;
-    const newMateria = new Model(req.body);
+    const {materia,alumnos,curso,docente} = req.body;
+    const newMateria = new Model({
+        materia,alumnos,curso,docente
+    });
     await newMateria.save();//Lo guardo en la base de datos el aula ingresada
     res.json({message:'Materia Guardada'})
     console.log('Materia Guardada');
     console.log(newMateria);
-    }catch(err){
-        res.sendStatus(500).json(err); 
-     }
 }
 exports.put = async (req,res)=>{
-    const {nombre,alumnos} =req.body;
+    const {materia,alumnos,curso,docente} =req.body;
     const materia_actualizada = await Model.findOneAndUpdate({_id: req.params.id},{
-        nombre,
-        alumnos
+        materia,
+        alumnos,
+        curso,
+        docente
     });
     res.json({message:'Materia actualizada'});
     console.log('Materia actualizada');

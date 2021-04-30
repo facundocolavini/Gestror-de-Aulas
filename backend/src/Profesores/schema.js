@@ -1,22 +1,21 @@
 const mongoose = require ('mongoose');
 
 const schema = new mongoose.Schema({
-    materia: {
-      type: String,
-      required: true
- 
-    },
-    alumnos: {
-      type: Number,
-      
-    },
-    curso:{     
+    docente: {
       type: String,
       required: true
     },
-    docente:{
+    turno: {
       type: String,
       required: true
+    },
+    dia:{     
+      type: String,
+      required: true
+    },
+    materia:{
+      type:String,
+      required:true
     }
   });
 

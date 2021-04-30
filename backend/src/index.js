@@ -1,4 +1,4 @@
-//Va arranca rnuestro servidor e importar nuetros modulos.
+//Va arrancar nuestro servidor e importar nuetros modulos.
 //Exporto app de app.js a index.js
 require('dotenv').config();
 const app = require('./app');
