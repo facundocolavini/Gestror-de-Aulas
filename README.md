@@ -1,5 +1,5 @@
 # Gestror-de-Aulas
-   #### En este proyecto se podra agregar, modificar y eliminar la informacion desde un formulario el cual esta conectado a una base de datos donde le llegaran las peticiones       solicitadas que el usuario realice,esa misma infomacion se podra ver en una tabla para tener interactividad total con la  informacion a requerida.
+   #### Esta Aplicación se encargar de llevar acabo la gestion y reservas de aulas de un instituto.En el cual tenemos aulas y cursos disponibles, se podran hacer reservas en las cuales se mostraran en una tabla donde tenemos las reservas de la semana.
 
 # Pre-requisitos 📋
 ###### Instalar en la carpeta del proyecto:
