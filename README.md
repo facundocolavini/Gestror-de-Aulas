@@ -1,5 +1,5 @@
 # Gestror-de-Aulas
-   #### Esta Aplicación se encargar de llevar acabo la gestion y reservas de aulas de un instituto.En el cual tenemos aulas y cursos disponibles, se podran hacer reservas en las cuales se mostraran en una tabla donde tenemos las reservas de la semana.
+   #### Esta Aplicación se encargar de llevar acabo la gestion de reservas de aulas para un instituto.En el cual tenemos aulas , cursos disponibles y se podra reservar aulas para la semana contando con validaciones.
 
 # Pre-requisitos 📋
 ###### Instalar en la carpeta del proyecto:
